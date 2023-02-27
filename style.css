@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f5ed;
+  font-family: 'Poppins', sans-serif;
+font-family: 'Shantell Sans', cursive;
+}
+
+nav{
+ display: flex;
+  height: 15vh;
+}
+
+nav ul{
+ display: flex;
+ align-items: center;
+}
+
+nav ul li{
+ list-style: none;
+ margin-right: 100px;
+ font-weight: 600;
+}
+
+nav ul li img{
+  width: 100px;
+}
+
+main{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 10%;
+height: 85%;
+}
+.leftmain{
+  width: 40%;
+}
+
+.leftmain h1{
+  font-size: 60px;
+}
+.leftmainn p{
+  margin: 5% 0;
+}
+
+.leftmain button{
+  background-color: #3b855b;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  margin-top: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.rightmain{
+  width:60%;
+  padding-left: 7%;
+}
+
+.rightmain div img{
+  width:30%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.rightmain div img.first-image{
+  height: 190px;
+  width:170px;
+  border:none;
+ box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.rightmain div img.second-image{
+  height: 250px;
+  width:220px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.rightmain div img.third-image{
+  height: 280px;
+  width:  420px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
